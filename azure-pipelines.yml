@@ -11,9 +11,9 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '3214faa2-912f-42a2-8b94-2da60a464b8e'
-  imageRepository: 'mohantanejaazurevotingappredis1'
+  imageRepository: 'mohantanejaazurevotingappredis'
   containerRegistry: 'strcr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/azure-vote1/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/azure-vote/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
